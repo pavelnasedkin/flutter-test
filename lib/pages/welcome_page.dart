@@ -28,11 +28,11 @@ class _WelcomePageState extends State<WelcomePage> {
             items: const [
               DropdownMenuItem(value: QuizCategory.linux, child: Text('Linux')),
               DropdownMenuItem(value: QuizCategory.devOps, child: Text('DevOps')),
-              DropdownMenuItem(value: QuizCategory.networking, child: Text('Networking')),
-              DropdownMenuItem(value: QuizCategory.programming, child: Text('Programming')),
-              DropdownMenuItem(value: QuizCategory.cloud, child: Text('Cloud')),
+              // DropdownMenuItem(value: QuizCategory.networking, child: Text('Networking')),
+              // DropdownMenuItem(value: QuizCategory.programming, child: Text('Programming')),
+              // DropdownMenuItem(value: QuizCategory.cloud, child: Text('Cloud')),
               DropdownMenuItem(value: QuizCategory.docker, child: Text('Docker')),
-              DropdownMenuItem(value: QuizCategory.kubernetes, child: Text('Kubernetes')),
+              // DropdownMenuItem(value: QuizCategory.kubernetes, child: Text('Kubernetes')),
             ],
             onChanged: (value) {
               setState(() {
