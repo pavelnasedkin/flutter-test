@@ -1,16 +1,11 @@
 # quiz
 
-A new Flutter project.
+Тестовое Задание
 
-## Getting Started
+В качестве тестового задания Вам предлагается создать небольшое приложение-викторину (Quiz App). Викторина состоит из 10 вопросов. Время на прохождения викторины неограниченно и вести его учет необязательно.
+Для генерации вопросов можете воспользоваться бесплатным API  https://quizapi.io
+Приложение должно состоят из 3-х экранов.  На первом экране представлены 2 выпадающих списка, определяющих тематику и сложность викторины соответственно, и кнопка «Начать».
+На втором экране представлен вопрос, с возможными вариантами ответа. При выборе ответа экран пролистывается к следующему вопросу.
+На третьем экране представлен результат викторины и кнопка сохранения результата. Сохранять результат необходимо в Firestore Firebase, при этом в результате указываются: дата и время прохождения викторины, тематика и сложность викторины, количество верных и неверных ответов.
+Дизайн приложения произвольный и зависит только от Ваших предпочтений и навыков. 
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
